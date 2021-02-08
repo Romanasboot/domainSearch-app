@@ -1,0 +1,49 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\HTML\\Javascript-1"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\HTML\\imagemixer"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\HTML\\validation"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\HTML\\promise"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\HTML\\airticket"
+		},
+		{
+			"path": "..\\..\\..\\..\\movies-app\\movies-app"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\Pastokodas"
+		},
+		{
+			"path": "..\\..\\..\\..\\postcode"
+		},
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\star-db"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\Downloads\\NV_Front-end-atsiskaitymas-main"
+		},
+		{
+			"path": "..\\..\\..\\..\\recipe-search"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\Downloads\\GM_recipe-master"
+		},
+		{
+			"path": "..\\..\\..\\..\\meniu-v2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Pastokodas"
+	}
+}

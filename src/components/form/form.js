@@ -7,18 +7,18 @@ class Forma extends Component{
     constructor(){
         super()
         this.state = {text: ''};
+        
+        
+    }
+        handleChange = (e)=>{
+            console.log(e.target.value);
+            this.setState({text: e.target.value});
         };
-
-
-    handleChange = (e)=>{
-        console.log(e.target.value);
-        this.setState({text: e.target.value});
-    };
-    handleSubmit =(e)=>{
-        e.preventDefault();
-        //this.props.SearchQuery(this.state.text);
-        console.log('ieskosim: '+this.state.text);
-    };
+        handleSubmit =(e)=>{
+            e.preventDefault();
+            //this.props.SearchQuery(this.state.text);
+            console.log('ieskosim: '+this.state.text);
+        };
     
     render() {
         return (

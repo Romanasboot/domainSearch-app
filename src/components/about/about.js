@@ -1,6 +1,6 @@
 import './about.scss'
 import { Component } from 'react';
-import { Container, Jumbotron, Button } from 'react-bootstrap';
+import { Container, Jumbotron} from 'react-bootstrap';
 
 class About extends Component {
     render () {
@@ -12,9 +12,6 @@ class About extends Component {
                     <p>
                         Bandė sukurti Roman Kuziakov. KITM 201T grupė. 
                         Kaunas 2020.
-                    </p>
-                    <p>
-                        <Button variant="primary" href="#">Home</Button>
                     </p>
                 </Jumbotron>
                 

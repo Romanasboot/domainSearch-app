@@ -1,10 +1,11 @@
 import './app.scss';
 import React, {Component} from 'react';
 import Header from  "../header/header";
-import Main from "../main/main";
+//import Nav from "../nav/nav";
+//import Main from "../main/main";
 import Forma from "../form/form";
-//import About from "../about/about";
-//import { BrowserRouter, Route, Switch } from "react-router-dom";
+import About from "../about/about";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 
@@ -21,18 +22,22 @@ class App extends Component {
 
         return(
             <Container>
+                <BrowserRouter>
+
                     <div className="app">
                         <Header/>
-                        <Forma onSearchQuery={this.handleQuery}/>
-                        <Main query={this.state.query}/>
-                        {/* <About/> */}
-                        {/* <Switch>
-                            <Route exact path="/" component={Main}/>
-                            <Route path="/nav" component={Nav}/>
-                            <Route path="/about" component={About}/>
-                        </Switch> */}
+                        {/* <Form onSearchQuery={this.handleQuery}/> */}
+                        {/* <Main query={this.state.query}/> */}
+                        
+                        <Switch>
+                            <Route exact path="/" render={()=><h2>Cia galima ieskoti</h2>}></Route>
+                            <Route path="/form"><Forma/></Route>
+                            <Route path="/about"><About/></Route>
+                            
+                        </Switch>
 
                     </div>
+                </BrowserRouter>
             </Container>
             )
     }
